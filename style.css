@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lobster&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+    justify-content: center;
+    cursor: default;
+}
+
+body {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    background: rgb(2,0,36);
+    background: linear-gradient(90deg, rgba(2,0,36,1) 15%, rgba(9,9,121,1) 100%, rgba(0,212,255,1) 100%);
+    text-align: center;
+    justify-content: center;
+}
+
+h1 {
+    font-family: 'Lobster', sans-serif;
+    padding-top: 100px;
+    text-align: center;
+    justify-content: center;
+    font-size: 160px;
+    transition: all 0.3s ease;
+}
+
+h3 {
+    text-align: center;
+    justify-content: center;
+    font-size: 50px;
+    transition: all 0.3s ease;
+    font-weight: lighter;
+}
+
+h6 {
+    padding-top: 140px;
+}
+
+p {
+    padding-top: 45px;
+    margin: 12px;
+    margin-bottom: 62px;
+}
+
+button {
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 20px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 50px;
+    width: 200px;
+    height: 60px;
+    border: none;
+    border-radius: 30px;
+    box-shadow: 0px 0px 15px white;
+    transition: all 0.3s ease-in;
+    transition: all 0.2s ease-out;
+    background: none;
+    outline: none !important;
+}
+
+button:hover {
+    cursor: pointer;
+    box-shadow: 0px 0px 31px lightskyblue;
+    font-size: 28px;
+    width: 205px;
+    height: 65px;
+}
+
+button:active {
+    background-color: white;
+    color: black;
+    outline: none !important;
+    box-shadow: 0px 0px 39px rgb(230, 246, 137);
+}
+
+h1:hover {
+    font-size: 165px;
+    cursor: default;
+    text-shadow: 0px 0px 12px rgb(47, 163, 234);
+}
+
+h3:hover {
+    font-size: 55px;
+    cursor: default;
+    /*text-shadow: 0px 0px 12px rgb(69, 182, 252);*/
+}
+
+hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+    width: 1150px;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
